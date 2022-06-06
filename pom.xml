@@ -50,7 +50,7 @@
 			<artifactId>heroku-maven-plugin</artifactId>
 			<version>2.0.11</version>
 			<configuration>
-				<appName>si0</appName>
+				<appName>siexam</appName>
 				<processTypes>
 					<web>java $JAVA_OPTS -jar -Dserver.port=$PORT ${full-artifact-name}</web>
 				</processTypes>
